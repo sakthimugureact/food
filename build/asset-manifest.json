@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/foodorder/static/css/main.8b631dd2.css",
+    "main.js": "/foodorder/static/js/main.b83c03b1.js",
+    "static/js/453.2cecc6e0.chunk.js": "/foodorder/static/js/453.2cecc6e0.chunk.js",
+    "static/media/loginbg.png": "/foodorder/static/media/loginbg.4df570419416a292bf96.png",
+    "static/media/deliver.png": "/foodorder/static/media/deliver.0aedac0736a4e2b3c126.png",
+    "static/media/bannerimg.png": "/foodorder/static/media/bannerimg.0dbbcb9cd0b1df557279.png",
+    "static/media/logo.png": "/foodorder/static/media/logo.b16c3473eeafa675108c.png",
+    "static/media/items.png": "/foodorder/static/media/items.5b2784bdf69d452ad2cc.png",
+    "static/media/15percent.png": "/foodorder/static/media/15percent.9ca74d69e2e8e3020b85.png",
+    "static/media/leaf.png": "/foodorder/static/media/leaf.a8b6f038dd928bb7db18.png",
+    "static/media/quality.png": "/foodorder/static/media/quality.657fc1aff22963c91347.png",
+    "static/media/delivery.png": "/foodorder/static/media/delivery.86e425cc0b060e1adc72.png",
+    "index.html": "/foodorder/index.html",
+    "main.8b631dd2.css.map": "/foodorder/static/css/main.8b631dd2.css.map",
+    "main.b83c03b1.js.map": "/foodorder/static/js/main.b83c03b1.js.map",
+    "453.2cecc6e0.chunk.js.map": "/foodorder/static/js/453.2cecc6e0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b631dd2.css",
+    "static/js/main.b83c03b1.js"
+  ]
+}

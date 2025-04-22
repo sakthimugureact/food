@@ -42,7 +42,7 @@ function Home() {
         <input className="homeSearch d-block mx-auto " type="search" placeholder='🔎Search' aria-label="Search" onKeyUp={(e)=>handleSearch(e)} />
         <ul className=' fs-3 z-3' style={{listStyle:"none"}}>
          {results&&results.map((val,index)=>(
-          <Link to={`/categoryshow/${val.id}`} className='text-dark fw-bold' style={{textDecoration:"none"}}><li key={index} className='homeSearch mx-auto '>{val.innerTitle}</li></Link>
+          <Link to={`/categoryshow/${val.id}`}  key={index} className='text-dark fw-bold' style={{textDecoration:"none"}}><li className='homeSearch mx-auto '>{val.innerTitle}</li></Link>
          ))}
         </ul>
     </div>

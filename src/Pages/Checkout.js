@@ -52,18 +52,18 @@ function Checkout() {
             <div className="payment-method mx-4">
                 <div className="form-check">
                     <input  type="radio" name="payment" id="card" value="card" onClick={()=>disp()}/>
-                    <label className="form-check-label text-white fs-5 p-3" for="card">
+                    <label className="form-check-label text-white fs-5 p-3" >
                         Credit / Debit Card Payment
                     </label><br></br>
                     <img src={Master} alt="Mastercard" height="20" className='mx-4'/>
                     <img src={Visa} alt="Visa" height="20"  className='mx-4' />
                     <img src={Atm} alt="Other" height="20"  className='mx-4' /><br></br>
                     <input  type="radio" name="payment" id="cod" value="cod"  onClick={()=>disp()}/>
-                    <label className="form-check-label text-white fs-5 p-3" for="cod"  >
+                    <label className="form-check-label text-white fs-5 p-3"  >
                         Cash on Delivery
                     </label><br></br>
                     <input type="radio" name="payment" id="upi" value="upi" onClick={()=>disp()} />
-                    <label  for="upi" className='text-white fs-5 p-3'>
+                    <label  className='text-white fs-5 p-3'>
                         Pay via UPI
                     </label>
 
