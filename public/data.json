@@ -1,0 +1,88 @@
+{
+    "users":[
+        {
+        "id":1,
+        "userimg":"/images/user1.png",
+        "username":"Jenny Millie",
+        "usercontent":"I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.",
+        "rating":4.8
+        },
+        {
+        "id":2,
+        "userimg":"/images/user2.png",
+        "username":"Johnson Kemi",
+        "usercontent":"I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.",
+        "rating":4.5
+        },
+        {
+        "id":3,
+        "userimg":"/images/user3.png",
+        "username":"Lucas Rodrigo",
+        "usercontent":"I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.",
+        "rating":4.2
+        },
+        {
+        "id":4,
+        "userimg":"/images/user4.png",
+        "username":"Alicia munro",
+        "usercontent":"I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you.",
+        "rating":4.9
+        }
+],
+"hotels":[
+    {
+        "id":1,
+        "hotelsrc":"/images/saravana.png",
+        "banner":"/images/saravana.png",
+        "foodlist1":"/images/kfc1.png",
+        "foodlist2":"/images/kfc2.png",
+        "foodlist3":"/images/kfc3.png",
+        "foodlist4":"/images/kfc4.png"
+    },
+    {
+        "id":2,
+        "hotelsrc":"/images/kfc.png",
+        "banner":"/images/kfcg.gif",
+        "foodlist1":"/images/kfc1.png",
+        "foodlist2":"/images/kfc2.png",
+        "foodlist3":"/images/kfc3.png",
+        "foodlist4":"/images/kfc4.png"
+    },
+    {
+        "id":3,
+        "hotelsrc":"/images/tasty.png",
+        "banner":"/images/tasty.png",
+        "foodlist1":"/images/kfc1.png",
+        "foodlist2":"/images/kfc2.png",
+        "foodlist3":"/images/kfc3.png",
+        "foodlist4":"/images/kfc4.png"
+    },
+    {
+        "id":4,
+        "hotelsrc":"/images/popeyes.png",
+        "banner":"/images/popg.gif",
+        "foodlist1":"/images/kfc1.png",
+        "foodlist2":"/images/kfc2.png",
+        "foodlist3":"/images/kfc3.png",
+        "foodlist4":"/images/kfc4.png"
+    },
+    {
+        "id":5,
+        "hotelsrc":"/images/wing.png",
+        "banner":"/images/wing.gif",
+        "foodlist1":"/images/kfc1.png",
+        "foodlist2":"/images/kfc2.png",
+        "foodlist3":"/images/kfc3.png",
+        "foodlist4":"/images/kfc4.png"
+    },
+    {
+        "id":6,
+        "hotelsrc":"/images/canes.png",
+        "banner":"/images/canes.png",
+        "foodlist1":"/images/kfc1.png",
+        "foodlist2":"/images/kfc2.png",
+        "foodlist3":"/images/kfc3.png",
+        "foodlist4":"/images/kfc4.png"
+    }
+]
+}
