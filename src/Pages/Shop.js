@@ -126,14 +126,14 @@ function Shop() {
               </ul>
               <h3 className=" text-center fw-bold pt-5">Filter By Price</h3>
               <input type="range" className="form-range p-5" defaultValue={65} min="0" max="300" step="0.5" id="customRange3" onChange={(e) => setInputs(e.target.value)} />
-              <h4 className='text-center'>Rs: {inputs==0?"65":inputs}</h4>
+              <h4 className='text-center'>Rs: {inputs===0?"65":inputs}</h4>
             </div>
           </div>
           <div className='col-md-9'>
           <div className='row d-flex justify-content-center'>
             {shop&&shop.map((val,index)=>(
               <div className='col-xl-3 bg-light shop p-2' key={index}>
-                  <img src={val.outersrc} className='d-block mx-auto' width="80" height="90"></img>
+                  <img src={val.outersrc} className='d-block mx-auto' width="80" height="90" alt='food'></img>
                   <h5 className='fw-bold text-center mt-4' style={{letterSpacing:"2px"}}>{val.innerTitle}</h5>
                   <h5 className='fs-6 ps-2 pt-3'>⭐⭐⭐⭐⭐(243)</h5>
                   <p className='ps-2'>Minus esque omnis aut autem deleniti est. Dolores earum.</p>

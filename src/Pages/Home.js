@@ -34,7 +34,7 @@ function Home() {
     fetch('/category.json').then(res=>res.json()).then(data=>setCategory(data.splice(0,6)))
     fetch('/data.json').then(res=>res.json()).then(data=>setCustomer(data.users))
     fetch('/data.json').then(res=>res.json()).then(data=>setHotel(data.hotels))
-    fetch('category.json').then(res=>res.json()).then(data=>setSearch(data))
+    fetch('./category.json').then(res=>res.json()).then(data=>setSearch(data))
   },[])
   return (
     <>

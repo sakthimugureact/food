@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Cartvalue>
-      <BrowserRouter basename="/foodorder">
+      <BrowserRouter>
       <Displaynav/>
       
       </BrowserRouter>
